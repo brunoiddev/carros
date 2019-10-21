@@ -1,0 +1,63 @@
+html, body {
+	background-color: lightgrey;
+	margin: 0;
+	height:100%;
+	
+
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+h1, h2, h3, h4, p {
+	margin: 15px 0;
+}
+
+.content_esquerda {
+	width: 175px;
+	height: 100%;
+	background-color: #2C353C;
+	float: left;
+}
+
+.logo_area {
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background-color: white;
+}
+
+.menu_area {
+}
+.menu_area a {
+	color: white;
+	text-decoration: none;
+}
+.menu_item {
+	width: 100%;
+	padding: 15px;
+}
+.menu_item:hover {
+	background-color:#242B2F;
+}
+
+.content_direita {
+	width: calc(100% - 175px);
+	height: 100%;
+	background-color: black;
+	float: left;	
+}
+
+.user_area {
+	height: 40px;
+	line-height: 40px;
+	background-color: grey;
+	color: white;
+	text-align: right;
+	padding-right: 30px;
+}
+
+.content_area {
+	padding: 30px;
+	color: white;
+}
